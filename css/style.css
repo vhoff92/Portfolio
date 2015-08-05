@@ -97,6 +97,13 @@ footer {
 
 }
 
-div #contact {
+div#contact {
    font-family: 'Open Sans', sans-serif;
+   clear: both;
+}
+
+div#pic {
+   clear: both;
+   float: left;
+
 }
