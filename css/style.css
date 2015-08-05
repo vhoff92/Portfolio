@@ -13,6 +13,8 @@ h1 {
    font-size: 1em;
    float: left;
    font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+
 }
 .offscreen {
   position: absolute;
@@ -102,8 +104,8 @@ div#contact {
    clear: both;
 }
 
-div#pic {
-   clear: both;
-   float: left;
-
+img #cv {
+   height:500px;
 }
+
+
