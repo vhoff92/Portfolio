@@ -1,21 +1,43 @@
 img {
-   height:60px;
-   float: left;
-   padding-top:20px;
-   padding-right: 20px;
-   padding-left: 20px;
-
+  height: 60px;
+  float: left;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+img.me {
+  float: left;
+  height: 500px;
+  padding-top: 0px;
+}
+img.me_2 {
+  float: left;
+  height: 500px;
+}
+img.CV {
+  height: 800px;
+  padding-left: 0px;
 }
 
 h1 {
-   padding-top: 30px;
-   padding-right: 220px;
-   font-size: 1em;
-   float: left;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 400;
-
+  padding-top: 30px;
+  padding-right: 220px;
+  font-size: 1em;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
 .offscreen {
   position: absolute;
   top: -30em;
@@ -23,89 +45,89 @@ h1 {
 }
 
 div#hmenu {
-   background: #fffs;
-   width: 100%;
-   word-spacing: 25px;
-   padding-top: 42px;
-   padding-right: 30px;
-   font-family: 'Open Sans', sans-serif, 300;
+  background: #fffs;
+  width: 100%;
+  word-spacing: 25px;
+  padding-top: 42px;
+  padding-right: 30px;
+  font-family: 'Open Sans', sans-serif, 300;
 }
 
 div#hmenu ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 div#hmenu ul li {
-   margin: 0;
-   padding: 0;
-   display: inline;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 
-div#hmenu ul a:link{
-   margin: 0;
-   padding: .3em .4em .3em .4em;
-   text-decoration: none;
-   font-weight: lighter;
-   font-size: medium;
-   color: #000000;
+div#hmenu ul a:link {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: medium;
+  color: #000000;
 }
 
-div#hmenu ul a:visited{
-   margin: 0;
-   padding: .3em .4em .3em .4em;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: medium;
-   color: #000000;
+div#hmenu ul a:visited {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
 }
 
-div#hmenu ul a:active{
-   margin: 0;
-   padding: .3em .4em .3em .4em;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: medium;
-   color: #000000;
+div#hmenu ul a:active {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
 }
 
-div#hmenu ul a:hover{
-   margin: 0;
-   padding: .3em .4em .3em .4em;
-   text-decoration: none;
-   font-weight: bold;
-   font-size: medium;
-   color: #000000;
-   background-color: #fff;
+div#hmenu ul a:hover {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
+  background-color: #fff;
 }
 
 p {
-   font-family: 'Open Sans', sans-serif, 300;
-   padding-top: 50px;
-   padding-left:600px;
-   padding-right:30px;
-   font-weight: 300;
-
+  font-family: 'Open Sans', sans-serif, 300;
+  padding-top: 50px;
+  padding-left: 600px;
+  padding-right: 30px;
+  font-weight: 300;
+}
+p.resume {
+  padding-bottom: 10px;
+  padding-top: 0px;
+  font-size: small;
+}
+p.cvcontact {
+  float: left;
 }
 
 footer {
-   position: fixed;
-   bottom: 2px;
-   right:80px;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 300;
-   font-size: small;
-
+  position: fixed;
+  bottom: 2px;
+  right: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: small;
 }
 
-div#contact {
-   font-family: 'Open Sans', sans-serif;
-   clear: both;
+div #contact {
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
 }
-
-img #cv {
-   height:500px;
-}
-
-
