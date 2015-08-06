@@ -12,10 +12,12 @@ img {
    &.me_2 {
        float: left;
       height:500px;
-   }
-   &.CV {
-      height:800px;
-      padding-left:0px;
+      padding-top: 0px;
+    }
+    &.cvlogo {
+      float: left;
+
+    }
 }
 }
 
@@ -28,14 +30,7 @@ h1 {
    font-weight: 400;
 
 }
-h4 {
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 400;
-}
-h5 {
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 400;
-}
+
 .offscreen {
   position: absolute;
   top: -30em;
@@ -111,9 +106,16 @@ p {
       padding-top:0px;
       font-size:small;
    }
-   &.cvcontact{
-      float:left;
+   &.cv {
+   float: left;
+   padding-left: 50px;
    }
+   &.contact {
+   padding-top: 0px;
+   padding-left:0px;
+   padding-right:0px;
+   font-size: 2em;
+}
 }
 
 footer {
@@ -126,7 +128,5 @@ footer {
 
 }
 
-div #contact {
-   font-family: 'Open Sans', sans-serif;
-   clear: both;
-}
+
+
