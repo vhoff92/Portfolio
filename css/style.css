@@ -3,20 +3,22 @@ img {
   float: left;
   padding-top: 20px;
   padding-right: 20px;
-  padding-left: 5px;
+  padding-left: 20px;
 }
 img.me {
   float: left;
-  height: 400px;
-  padding-top: 55px;
+  height: 500px;
+  padding-top: 0px;
 }
 img.me_2 {
   float: left;
   height: 500px;
-  padding-top: 55px;
+  padding-top: 0px;
 }
 img.cvlogo {
-  float: left;
+  padding-left: 590px;
+  width: 200px;
+  position: absolute;
 }
 
 h1 {
@@ -96,14 +98,14 @@ p {
   float: right;
   font-family: 'Open Sans', sans-serif, 300;
   padding-top: 50px;
-  padding-right: 70px;
+  padding-right: 30px;
   font-weight: 300;
-  width: 500px;
 }
 p.resume {
   padding-bottom: 10px;
   padding-top: 0px;
   font-size: small;
+  float: none;
 }
 p.cv {
   float: left;
@@ -116,7 +118,10 @@ p.contact {
   font-size: 2em;
 }
 p.link {
-  font-size: 1em;
+  font-size: 4em;
+}
+p.cvcontent {
+  padding-left: 616px;
 }
 
 footer {
