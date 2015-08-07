@@ -15,6 +15,12 @@ img.me_2 {
   height: 500px;
   padding-top: 55px;
 }
+img.home {
+  float: left;
+  height: 275px;
+  padding-top: 55px;
+  padding-left: 100px;
+}
 
 .cvlogo {
   padding-top: 30px;
@@ -127,15 +133,6 @@ p.link {
   padding-bottom: 0px;
 }
 
-footer {
-  position: fixed;
-  bottom: 2px;
-  right: 80px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: small;
-}
-
 .offscreen {
   position: absolute;
   top: -30em;
@@ -155,9 +152,7 @@ div#pmenu ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  float: right;
-  padding-right: 260px;
-  padding-top: 25px;
+  padding-left: 600px;
 }
 
 div#pmenu ul li {
@@ -201,4 +196,46 @@ div#pmenu ul a:hover {
   font-size: small;
   color: #000000;
   background-color: #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 2px;
+  right: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.unwined1 {
+  height: 500px;
+  float: left;
+}
+
+.unwined2 {
+  height: 500px;
+  float: left;
+}
+
+.a6 {
+  height: 800px;
+}
+
+.gill {
+  height: 400px;
+}
+
+.cover {
+  height: 400px;
+  margin: auto;
+}
+
+.cover1 {
+  height: 400px;
+  margin: auto;
+}
+
+.cover2 {
+  height: 400px;
+  margin: auto;
 }
