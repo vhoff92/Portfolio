@@ -1,0 +1,226 @@
+img {
+  height: 60px;
+  float: left;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+img.me {
+  float: left;
+  height: 400px;
+  padding-top: 55px;
+}
+img.me_2 {
+  float: left;
+  height: 500px;
+  padding-top: 55px;
+}
+img.home {
+  float: left;
+  height: 275px;
+  padding-top: 55px;
+  padding-left: 100px;
+}
+
+.cvlogo {
+  padding-top: 30px;
+  padding-left: 450px;
+  width: 200px;
+  position: absolute;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-right: 220px;
+  font-size: 1em;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.offscreen {
+  position: absolute;
+  top: -30em;
+  left: -300em;
+}
+
+div#hmenu {
+  background: #fffs;
+  width: 100%;
+  word-spacing: 25px;
+  padding-top: 42px;
+  padding-right: 30px;
+  font-family: 'Open Sans', sans-serif, 300;
+}
+
+div#hmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#hmenu ul li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+div#hmenu ul a:link {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: medium;
+  color: #000000;
+}
+
+div#hmenu ul a:visited {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
+}
+
+div#hmenu ul a:active {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
+}
+
+div#hmenu ul a:hover {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
+  background-color: #fff;
+}
+
+p {
+  float: right;
+  font-family: 'Open Sans', sans-serif, 300;
+  padding-top: 50px;
+  padding-right: 68px;
+  font-weight: 300;
+  width: 572px;
+}
+p.resume {
+  font-size: small;
+  padding-top: 0px;
+}
+p.resume.resumehedding {
+  font-size: 2em;
+}
+p.contact {
+  padding-top: 0px;
+  padding-left: 400px;
+  width: 200px;
+  position: absolute;
+}
+p.link {
+  font-size: 1em;
+}
+
+.cvcontent {
+  padding-left: 597px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.offscreen {
+  position: absolute;
+  top: -30em;
+  left: -300em;
+}
+
+div#pmenu {
+  background: #fffs;
+  width: 100%;
+  word-spacing: 0px;
+  padding-top: 42px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif, 300;
+}
+
+div#pmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 600px;
+}
+
+div#pmenu ul li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+div#pmenu ul a:link {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: small;
+  color: #000000;
+}
+
+div#pmenu ul a:visited {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+  color: #000000;
+}
+
+div#pmenu ul a:active {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+  color: #000000;
+}
+
+div#pmenu ul a:hover {
+  margin: 0;
+  padding: .3em .4em .3em .4em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+  color: #000000;
+  background-color: #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 2px;
+  right: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: small;
+  word-spacing: 0px;
+}
+
+.unwined {
+  height: 600px;
+}
+
+.a6 {
+  height: 600px;
+}
+
+.gill {
+  height: 350px;
+}
+
+.cover {
+  height: 700px;
+  margin: auto;
+}
